@@ -1,7 +1,701 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5d0a2a8-b4e7-47b7-ac12-ee4a3b9a21e8" name="Default Changelist" comment="" />
+    <list default="true" id="f5d0a2a8-b4e7-47b7-ac12-ee4a3b9a21e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Holiday Free Website Template - Free-CSS.com (1).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Luxe Free Website Template - Free-CSS.com.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/css/bootstrap-datetimepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/css/flexslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/css/fonts/flexslider-icon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/css/fonts/flexslider-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/css/fonts/flexslider-icon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/css/fonts/flexslider-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/css/templatemo-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/about-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/about-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/about-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/about-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/about-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/about-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/about-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/banner-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/banner-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/banner-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/index-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/index-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/index-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/index-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/index-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/index-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/index-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/index-08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/index-09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/index-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/rating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/tours-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/tours-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/tours-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/tours-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/tours-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/tours-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/tours-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/tours-08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/tours-09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/tours-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/img/world-map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/js/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/js/jquery-1.11.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/js/jquery.flexslider-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/js/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/js/templatemo-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/holiday/tours.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/css/bootstrap-datepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/css/cs-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/css/cs-skin-border.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/css/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/css/flexslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/css/superfish.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/css/themify-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/flaticon/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/flaticon/flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/flaticon/flaticon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/flaticon/flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/flaticon/flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/flaticon/flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/flaticon/license.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/themify/themify.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/themify/themify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/themify/themify.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/fonts/themify/themify.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/hotel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/arrow_down_input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/hotel_feture_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/hotel_feture_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/hotel_feture_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/slider1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/slider2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/slider3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/svg/bicycle14.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/svg/car72.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/svg/cup74.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/svg/massage2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/svg/restaurant23.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/svg/swimming21.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/tab_img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/tab_img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/tab_img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/tab_img_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/tab_img_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/images/tab_img_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/bootstrap-datepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/classie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/google_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/hoverIntent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/jquery.countTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/jquery.flexslider-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/modernizr-2.6.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/selectFx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/js/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/_bootstrap-compass.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/_bootstrap-mincer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/_bootstrap-sprockets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/_bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_button-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_component-animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_glyphicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_input-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_navs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_pager.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_popovers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_responsive-embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_responsive-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_scaffolding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_thumbnails.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/_wells.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_center-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_hide-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_opacity.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_progress-bar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_reset-filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_tab-focus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_text-overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/sass/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/luxe/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/css/normalize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/js/jquery-1.11.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/js/jquery.nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shCore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/197  Hotel  DOC/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/contact_process.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/gijgo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/slicknav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/style.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/theme-default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/theme-default.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/css/themify-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/Flaticon.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/gijgo-material.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/gijgo-material.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/gijgo-material.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/gijgo-material.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/themify.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/themify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/themify.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/fonts/themify.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/about/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/about/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/about/about_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/about/about_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/banner/about_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/banner/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/banner/banner2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/banner/bradcam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/banner/bradcam2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/banner/bradcam3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/blog/author.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/blog/blog_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/blog/blog_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/blog/blog_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/blog/blog_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/blog/learn_about_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/blog/single_blog_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/blog/single_blog_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/blog/single_blog_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/blog/single_blog_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/blog/single_blog_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/blog/slide_thumb_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/comment/comment_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/comment/comment_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/comment/comment_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/disabled-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/disabled-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/g1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/g2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/g3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/g4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/g5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/g6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/g7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/g8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/primary-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/primary-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/success-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/elements/success-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/footer-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/instragram/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/instragram/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/instragram/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/instragram/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/instragram/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/offers/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/offers/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/offers/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/post/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/post/post_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/post/post_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/post/post_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/post/post_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/post/post_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/post/post_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/post/post_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/post/post_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/post/post_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/post/post_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/post/preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/rooms/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/rooms/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/rooms/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/rooms/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/img/video/video.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/ajax-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/gijgo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/jquery.ajaxchimp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/jquery.counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/jquery.form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/jquery.scrollUp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/jquery.slicknav.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/nice-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/scrollIt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/vendor/jquery-1.12.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/vendor/modernizr-3.5.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/rooms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_blog_part.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_bradcam.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_btn.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_elements.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_extend.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_offers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_section_title.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_slick-nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/_varriable.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/scss/theme-default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/montana/single-blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/css/normalize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/js/jquery-1.11.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/js/jquery.nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shCore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/197  Hotel  DOC/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/gijgo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/slicknav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/style.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/theme-default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/theme-default.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/themify-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/Flaticon.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/gijgo-material.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/gijgo-material.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/gijgo-material.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/gijgo-material.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/themify.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/themify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/themify.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/fonts/themify.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/about/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/about/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/about/about_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/about/about_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/banner/about_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/banner/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/banner/banner2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/banner/bradcam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/banner/bradcam2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/banner/bradcam3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/blog/author.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/blog/blog_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/blog/blog_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/blog/blog_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/blog/blog_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/blog/learn_about_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/blog/single_blog_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/blog/single_blog_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/blog/single_blog_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/blog/single_blog_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/blog/single_blog_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/blog/slide_thumb_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/comment/comment_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/comment/comment_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/comment/comment_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/disabled-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/disabled-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/g1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/g2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/g3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/g4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/g5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/g6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/g7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/g8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/primary-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/primary-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/success-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/elements/success-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/footer-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/instragram/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/instragram/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/instragram/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/instragram/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/instragram/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/offers/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/offers/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/offers/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/post/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/post/post_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/post/post_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/post/post_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/post/post_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/post/post_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/post/post_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/post/post_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/post/post_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/post/post_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/post/post_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/post/preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/rooms/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/rooms/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/rooms/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/rooms/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/img/video/video.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/ajax-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/gijgo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.ajaxchimp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.scrollUp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.slicknav.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/nice-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/scrollIt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/vendor/jquery-1.12.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/vendor/modernizr-3.5.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_blog_part.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_bradcam.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_btn.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_elements.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_extend.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_offers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_section_title.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_slick-nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/_varriable.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/scss/theme-default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/slider.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +717,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YWcrlTLa5XNoGDbofDB3nA1OXf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -93,6 +791,9 @@
       <workItem from="1585406228765" duration="14705000" />
       <workItem from="1585423204815" duration="16000" />
       <workItem from="1585424897778" duration="13000" />
+      <workItem from="1585440951624" duration="1089000" />
+      <workItem from="1585442057475" duration="2585000" />
+      <workItem from="1585481210909" duration="2262000" />
     </task>
     <servers />
   </component>
@@ -104,10 +805,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583930178936" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585406228527">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585481210930">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585406228527" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585481210930" />
     <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583928582347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

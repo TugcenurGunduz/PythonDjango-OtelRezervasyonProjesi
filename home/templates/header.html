@@ -1,75 +1,78 @@
 {% load static %}
-<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-<!-- header-start -->
-<header>
-    <div class="header-area ">
-        <div id="sticky-header" class="main-header-area">
-            <div class="container-fluid p-0">
-                <div class="row align-items-center no-gutters">
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="main-menu  d-none d-lg-block">
-                            <nav>
-                                <ul id="navigation">
-                                    <li><a class="active" href="index.html">home</a></li>
-                                    <li><a href="rooms.html">rooms</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                        <ul class="submenu">
-                                            <li><a href="blog.html">blog</a></li>
-                                            <li><a href="single-blog.html">single-blog</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                        <ul class="submenu">
-                                            <li><a href="elements.html">elements</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-2">
-                        <div class="logo-img">
-                            <a href="index.html">
-                                <img src={% static 'img/logo.png'%} alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-4 d-none d-lg-block">
-                        <div class="book_room">
-                            <div class="socail_links">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-facebook-square"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="book_btn d-none d-lg-block">
-                                <a class="popup-with-form" href="#test-form">Book A Room</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="mobile_menu d-block d-lg-none"></div>
-                    </div>
-                </div>
+    <header>
+      <!-- Navbar
+    ================================================== -->
+      <div class="navbar navbar-static-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <!-- logo -->
+            <div class="logo">
+              <a href="index.html"><img src="{% static 'assets/img/logo.png' %}" alt="" /></a>
             </div>
+            <!-- end logo -->
+
+            <!-- top menu -->
+            <div class="navigation">
+              <nav>
+                <ul class="nav topnav">
+                  <li class="active">
+                    <a href="{% static 'index.html' %}"><i class="icon-home"></i> Home </a>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#"><i class="icon-cog"></i> Features <i class="icon-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="{% static 'media.html' %}">Media</a></li>
+                      <li><a href="{% static 'color-scheme.html' %}">10 Theme colors</a></li>
+                      <li><a href="{% static 'buttons.html' %}">Buttons</a></li>
+                      <li><a href="{% static 'components.html' %}">Components</a></li>
+                      <li><a href="{% static 'animations.html' %}">56 Animations</a></li>
+                      <li><a href="{% static 'icons.html' %}">Icons</a></li>
+                      <li><a href="{% static 'icon-variations.html' %}">Icon variations</a></li>
+                      <li class="dropdown"><a href="#">3rd level <i class="icon-angle-right"></i></a>
+                        <ul class="dropdown-menu sub-menu">
+                          <li><a href="#">Example menu</a></li>
+                          <li><a href="#">Example menu</a></li>
+                          <li><a href="#">Example menu</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#"><i class="icon-leaf"></i> Pages <i class="icon-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="{% static 'about.html' %}">About us</a></li>
+                      <li><a href="{% static 'pricingbox.html' %}">Pricing boxes</a></li>
+                      <li><a href="{% static 'testimonials.html' %}">Testimonials</a></li>
+                      <li><a href="{% static '404.html' %}">404</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#"><i class="icon-briefcase"></i> Portfolio <i class="icon-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="{% static 'portfolio-2cols.html' %}">Portfolio 2 columns</a></li>
+                      <li><a href="{% static 'portfolio-3cols.html' %}">Portfolio 3 columns</a></li>
+                      <li><a href="{% static 'portfolio-4cols.html' %}">Portfolio 4 columns</a></li>
+                      <li><a href="{% static 'portfolio-detail.html' %}">Portfolio detail</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#"><i class="icon-book"></i> Blog <i class="icon-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="{% static 'blog-left-sidebar.html' %}">Blog left sidebar</a></li>
+                      <li><a href="{% static 'blog-right-sidebar.html' %}">Blog right sidebar</a></li>
+                      <li><a href="{% static 'post-left-sidebar.html' %}">Post left sidebar</a></li>
+                      <li><a href="{% static 'post-right-sidebar.html' %}">Post right sidebar</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="{% static 'contact.html' %}"><i class="icon-envelope-alt"></i> Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- end menu -->
+
+          </div>
         </div>
-    </div>
-</header>
-<!-- header-end -->
+      </div>
+    </header>
