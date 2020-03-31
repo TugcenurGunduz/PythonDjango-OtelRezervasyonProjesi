@@ -24,7 +24,9 @@ class Category(models.Model):
 
     def image_tag(self):
         return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
+
     image_tag.short_description = 'Image'
+
 
 class Product(models.Model):
     STATUS = (
@@ -42,19 +44,21 @@ class Product(models.Model):
     status = models.CharField(max_length=10, choices=STATUS)
     create_at = models.DateTimeField(auto_now_add=True)
     update_at = models.DateTimeField(auto_now=True)
+
     def __str__(self):
         return self.title
 
-
     def image_tag(self):
         return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
+
     image_tag.short_description = 'Image'
 
-class Images(models.Model):
 
+class Images(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     title = models.CharField(max_length=50, blank=True)
     image = models.ImageField(blank=True, upload_to='images/')
+
     def __str__(self):
         return self.title
 
