@@ -7,7 +7,7 @@
           <div class="container">
             <!-- logo -->
             <div class="logo">
-              <a href="index.html"><img src="{% static 'assets/img/logo.png' %}" alt="" /></a>
+              <a href="/"><img src="{% static 'assets/img/logo.png' %}" alt="" /></a>
             </div>
             <!-- end logo -->
 
@@ -16,7 +16,7 @@
               <nav>
                 <ul class="nav topnav">
                   <li class="active">
-                    <a href="{% static 'index.html' %}"><i class="icon-home"></i> Home </a>
+                    <a href="/"><i class="icon-home"></i> Anasayfa </a>
                   </li>
                   <li class="dropdown">
                     <a href="#"><i class="icon-cog"></i> Features <i class="icon-angle-down"></i></a>
@@ -38,15 +38,6 @@
                     </ul>
                   </li>
                   <li class="dropdown">
-                    <a href="#"><i class="icon-leaf"></i> Pages <i class="icon-angle-down"></i></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="{% static 'about.html' %}">About us</a></li>
-                      <li><a href="{% static 'pricingbox.html' %}">Pricing boxes</a></li>
-                      <li><a href="{% static 'testimonials.html' %}">Testimonials</a></li>
-                      <li><a href="{% static '404.html' %}">404</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown">
                     <a href="#"><i class="icon-briefcase"></i> Portfolio <i class="icon-angle-down"></i></a>
                     <ul class="dropdown-menu">
                       <li><a href="{% static 'portfolio-2cols.html' %}">Portfolio 2 columns</a></li>
@@ -64,8 +55,15 @@
                       <li><a href="{% static 'post-right-sidebar.html' %}">Post right sidebar</a></li>
                     </ul>
                   </li>
+                    <li class="dropdown">
+                    <a href="/hakkimizda"><i class="icon-leaf"></i> Hakkımızda <i class=""></i></a>
+                  </li>
+                    <li class="">
+                    <a href="/referanslar"><i class="icon-leaf"></i> Referanslar <i class=""></i></a>
+
+                  </li>
                   <li>
-                    <a href="{% static 'contact.html' %}"><i class="icon-envelope-alt"></i> Contact</a>
+                    <a href="/iletisim"><i class="icon-envelope-alt"></i> İletişim </a>
                   </li>
                 </ul>
               </nav>
