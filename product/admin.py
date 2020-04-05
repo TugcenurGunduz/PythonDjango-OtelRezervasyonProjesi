@@ -10,14 +10,15 @@ class ProductImageInline(admin.TabularInline):
 
 
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ['title', 'status', 'image']
-    list_filter = ['status']
+    list_display = ['title', 'status', 'image_tag']
     readonly_fields = ('image_tag',)
+    list_filter = ['status']
+
 
 
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ['title', 'category', 'price', 'amount', 'image', 'status']
-    readonly_fields = ('image',)
+    list_display = ['title', 'category', 'price', 'amount', 'image_tag', 'status']
+    readonly_fields = ('image_tag',)
     list_filter = ['status', 'category']
     inlines = [ProductImageInline]
 

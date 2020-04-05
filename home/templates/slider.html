@@ -1,37 +1,32 @@
 {% load static %}
 <section id="intro">
 
-      <div class="container">
+    <div class="container">
         <div class="row">
-          <div class="span12">
-            <!-- Place somewhere in the <body> of your page -->
-            <div id="mainslider" class="flexslider">
-              <ul class="slides">
-                <li data-thumb="{% static 'assets/img/slides/flexslider/img1.jpg' %}">
-                  <img src="{% static 'assets/img/slides/flexslider/img1.jpg' %}" alt="" />
-                  <div class="flex-caption primary">
-                    <h2>Bootstrap</h2>
-                    <p>Lorem ipsum dolor sit amet vix ceteros noluisse intellegat</p>
-                  </div>
-                </li>
-                <li data-thumb="{% static 'assets/img/slides/flexslider/img2.jpg' %}">
-                  <img src="{% static 'assets/img/slides/flexslider/img2.jpg' %}" alt="" />
-                  <div class="flex-caption warning">
-                    <h2>Responsive layout</h2>
-                    <p>Lorem ipsum dolor sit amet vix ceteros noluisse intellegat</p>
-                  </div>
-                </li>
-                <li data-thumb="{% static 'assets/img/slides/flexslider/img3.jpg' %}">
-                  <img src="{% static 'assets/img/slides/flexslider/img3.jpg' %}" alt="" />
-                  <div class="flex-caption success">
-                    <h2>Rich of features</h2>
-                    <p>Lorem ipsum dolor sit amet vix ceteros noluisse intellegat</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+            <div class="span12">
+                <!-- Place somewhere in the <body> of your page -->
+                <div id="mainslider" class="flexslider">
 
-    </section>
+                    <ul class="slides">
+
+                        {% for rs in sliderdata %}
+                            <li data-thumb="{{ rs.image.url }}">
+                                <img src="{{ rs.image.url }}" alt="" />
+                                <div class="flex-caption primary">
+                                    <h2>{{ rs.title }}</h2>
+                                    <p>{{ rs.description }}</p>
+                                    <a href="/product/{{ rs.id }}/{{ rs.slug }}" class="btn-primary">Rezervasyon</a>
+                                </div>
+                            </li>
+                        {% endfor %}
+
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
