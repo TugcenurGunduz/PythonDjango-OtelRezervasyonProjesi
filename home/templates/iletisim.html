@@ -5,7 +5,7 @@
 {% block description %}{{setting.description}}{% endblock %}
 
 {% block head %}
-<link rel='shortcut icon' type='image/x-icon' href='{{setting.icon.url}}' />
+    <link rel='shortcut icon' type='image/x-icon' href='{{setting.icon.url}}' />
 {% endblock %}
 
 {% block sidebar %}
@@ -14,29 +14,56 @@
 
 {% block content %}
     <section id="subintro">
-      <div class="container">
-        <div class="row">
-          <div class="span8">
-            <ul class="breadcrumb">
-              <li><a href="/"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
-              <li class="active">İLETİŞİM</li>
-            </ul>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="span8">
+                    <ul class="breadcrumb">
+                        <li><a href="/"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
+                        <li class="active">İLETİŞİM</li>
+                    </ul>
+                </div>
 
+            </div>
         </div>
-      </div>
     </section>
     <section id="maincontent">
-      <div class="container">
-        <div class="row">
-          <div class="span12">
-            <div class="centered">
-              <p>
-                {{ setting.contact|safe }}
-              </p>
+        <div class="container">
+            <div class="row">
+                <div class="span5">
+
+                    <aside>
+
+                        <div class="billing-details">
+                            <div class="section-title">
+                                <h3 class="title">İletişim Formu</h3>
+
+                            </div>
+                            {% if messages %}
+                                {% for message in messages %}
+                                    <div class="alert alert-{{ message.tags }}" role="alert">
+                                        {{ message }}
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+
+                            <form action="" method="post">
+                                {% csrf_token %}
+                                {{ form.as_p }}
+                                <input type="submit" value="SEND FORM">
+                            </form>
+                        </div>
+
+                    </aside>
+                </div>
+
+                <div class="span7">
+
+                    <div class="widget">
+                        {{ setting.contact|safe }}
+                    </div>
+
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 {% endblock %}
