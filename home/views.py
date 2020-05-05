@@ -1,12 +1,9 @@
 from unicodedata import category
-
 from django.contrib import messages
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
-
-# Create your views here.
 from home.models import Setting, ContactFormu, ContactFormMessage
-from product.models import Product, Category
+from product.models import Product, Category, Images
 
 
 def index(request):
@@ -70,3 +67,14 @@ def category_products(request,id,slug):
                 'category': category,
                 'categorydata': categorydata}
     return render(request,'products.html',context)
+
+
+def product_detail(request,id,slug):
+    category = Category.objects.all()
+    product = Product.objects.get(pk=id)
+    images = Images.objects.filter(product_id=id)
+    context = { 'product':product,
+                'category': category,
+                'images':images
+                }
+    return render(request,'product_detail.html',context)

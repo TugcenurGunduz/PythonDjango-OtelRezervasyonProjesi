@@ -1,0 +1,196 @@
+{% extends "homebase.html" %}
+{% load static %}
+{% block title %} Hakkımızda-{{ setting.company }}{% endblock %}
+{% block keywords %}{{setting.keywords}}{% endblock %}
+{% block description %}{{setting.description}}{% endblock %}
+
+{% block head %}
+<link rel='shortcut icon' type='image/x-icon' href='{{setting.icon.url}}' />
+{% endblock %}
+
+{% block sidebar %}
+    {% include "sidebar.html" %}
+{% endblock %}
+
+{% block content %}
+ <section id="subintro">
+      <div class="container">
+        <div class="row">
+          <div class="span8">
+            <ul class="breadcrumb">
+              <li><a href="#"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
+              <li><a href="/category/{{product.category.id}}/{{product.category.slug}}">{{ product.category }}</a><i class="icon-angle-right"></i></li>
+              <li class="active">{{ product.title }}</li>
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="search">
+              <form class="input-append">
+                <input class="search-form" id="appendedPrependedInput" type="text" placeholder="Search here.." />
+                <button class="btn btn-dark" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="maincontent">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <article>
+              <div class="heading">
+                <h4>{{ product.title }}</h4>
+              </div>
+              <div class="clearfix">
+              </div>
+              <div class="row">
+                <div class="span8">
+                  <!-- start flexslider -->
+                  <div class="flexslider">
+                    <ul class="slides">
+                    {% for rs in images%}
+                      <li>
+                        <img src="{{ rs.image.url }}" alt="" />
+                      </li>
+                    {% endfor %}
+                    </ul>
+                  </div>
+                  <!-- end flexslider -->
+                  <p>
+                   {{ product.detail | safe }}
+                  </p>
+                </div>
+                <div class="span4">
+                  <aside>
+                    <div class="widget">
+                      <div class="project-widget">
+                        <h4 class="rheading">Portfolio detail<span></span></h4>
+                        <ul class="project-detail">
+                          <li><label>Project name :</label> Clean business theme</li>
+                          <li><label>Category :</label> Web design</li>
+                          <li><label>Project date :</label> 12 Apr 2013</li>
+                          <li><label>Project link :</label><a href="#">www.somelink.com</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </aside>
+                </div>
+              </div>
+            </article>
+            <!-- end article full post -->
+            <br>
+            <hr>
+             <h4>Comments</h4>
+            <ul class="media-list">
+              <li class="media">
+                <a class="pull-left" href="#">
+					<img class="media-object" src="{% static 'assets/img/small-avatar.png' %}" alt="" />
+					</a>
+                <div class="media-body">
+                  <h5 class="media-heading"><a href="#">John doe</a></h5>
+                  <span>3 March, 2013</span>
+                  <p>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                  </p>
+                  <a href="#" class="reply">Reply</a>
+                  <div class="clearfix">
+                  </div>
+                  <!-- Nested media object -->
+                  <div class="media">
+                    <a class="pull-left" href="#">
+							<img class="media-object" src="{% static 'assets/img/small-avatar.png' %}" alt="" />
+							</a>
+                    <div class="media-body">
+                      <h5 class="media-heading"><a href="#">Tom slayer</a></h5>
+                      <span>3 March, 2013</span>
+                      <p>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                      </p>
+                      <a href="#" class="reply">Reply</a>
+                      <div class="clearfix">
+                      </div>
+                      <!-- Nested media object -->
+                      <div class="media">
+                        <a class="pull-left" href="#">
+									<img class="media-object" src="{% static 'assets/img/small-avatar.png' %}" alt="" />
+									</a>
+                        <div class="media-body">
+                          <h5 class="media-heading"><a href="#">Erick doe</a></h5>
+                          <span>3 March, 2013</span>
+                          <p>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                          </p>
+                          <a href="#" class="reply">Reply</a>
+                          <div class="clearfix">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Nested media object -->
+                  <div class="media">
+                    <a class="pull-left" href="#">
+							<img class="media-object" src="{% static 'assets/img/small-avatar.png' %}" alt="" />
+							</a>
+                    <div class="media-body">
+                      <h5 class="media-heading"><a href="#">Jimmy doe</a></h5>
+                      <span>3 March, 2013</span>
+                      <p>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                      </p>
+                      <a href="#" class="reply">Reply</a>
+                      <div class="clearfix">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="media">
+                <a class="pull-left" href="#">
+					<img class="media-object" src="{% static 'assets/img/small-avatar.png' %}" alt="" />
+					</a>
+                <div class="media-body">
+                  <h5 class="media-heading"><a href="#">Mike sullivan</a></h5>
+                  <span>3 March, 2013</span>
+                  <p>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                  </p>
+                  <a href="#" class="reply">Reply</a>
+                  <div class="clearfix">
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="comment-post">
+              <h4>Leave a comment</h4>
+              <form action="" method="post" class="comment-form" name="comment-form">
+                <div class="row">
+                  <div class="span4">
+                    <label>Name <span>*</span></label>
+                    <input type="text" class="input-block-level" placeholder="Your name" />
+                  </div>
+                  <div class="span4">
+                    <label>Email <span>*</span></label>
+                    <input type="text" class="input-block-level" placeholder="Your email" />
+                  </div>
+                  <div class="span4">
+                    <label>URL</label>
+                    <input type="text" class="input-block-level" placeholder="Your website url" />
+                  </div>
+                  <div class="span8">
+                    <label>Comment <span>*</span></label>
+                    <textarea rows="9" class="input-block-level" placeholder="Your comment"></textarea>
+                    <button class="btn btn-theme" type="submit">Submit comment</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{% endblock %}
