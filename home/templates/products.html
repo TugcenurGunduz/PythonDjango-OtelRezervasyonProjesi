@@ -2,8 +2,8 @@
 {% load static %}
 
 {% block title %} {{ categorydata.title }}{% endblock %}
-{% block keywords %}{{setting.keywords}}{% endblock %}
-{% block description %}{{setting.description}}{% endblock %}
+{% block keywords %}{{categorydata.keywords}}{% endblock %}
+{% block description %}{{categorydata.description}}{% endblock %}
 
 {% block head %}
     <link rel='shortcut icon' type='image/x-icon' href='{{setting.icon.url}}' />

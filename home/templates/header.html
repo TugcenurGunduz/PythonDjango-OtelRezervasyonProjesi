@@ -47,6 +47,16 @@
                             <li>
                                 <a href="/iletisim"><i class="icon-envelope-alt"></i> İletişim </a>
                             </li>
+                            
+                            <li>
+                            <form action="/search/" method="post" class="input-append">
+                                {% csrf_token %}
+                                <input  name="query" class="search-form" id="appendedPrependedInput" type="text" placeholder="Search here.." />
+                                <button class="btn btn-dark" type="submit">Search</button>
+                            </form>
+                            </li>
+
+                            
                         </ul>
                     </nav>
                 </div>

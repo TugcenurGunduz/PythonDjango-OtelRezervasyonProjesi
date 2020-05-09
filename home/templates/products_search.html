@@ -1,0 +1,56 @@
+{% extends "homebase.html" %}
+{% load static %}
+
+{% block title %} Otel Arama Sonuclari {% endblock %}
+{% block keywords %}{{categorydata.keywords}}{% endblock %}
+{% block description %}{{categorydata.description}}{% endblock %}
+
+{% block head %}
+    <link rel='shortcut icon' type='image/x-icon' href='{{setting.icon.url}}' />
+{% endblock %}
+
+{% block sidebar %}
+    {% include "sidebar.html" %}
+{% endblock %}
+
+{% block content %}
+    <section id="subintro">
+        <div class="container">
+            <div class="row">
+                <div class="span8">
+                    <ul class="breadcrumb">
+                        <li><a href="/"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
+                        <li class="active">{{categorydata.title}}</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+   <section id="maincontent">
+      <div class="container">
+       
+        <div class="row">
+         
+         <table cellpadding="4" width="1200">
+              <tr>
+                <th>Image</th>
+                <th>Hotem Name</th>
+                <th>Category</th>
+                <th>Price</th>
+              </tr>
+                {% for rs in products %}
+                <tr>
+                    <td> <a href="/product/{{ rs.id }}//{{ rs.slug }}/"><img src ="{{ rs.image.url }}" style="width:350px;height:250px;" alt=""></a></td>
+                    <td> <h4 class="product-name"><a href="/product/{{ rs.id }}/{{ rs.slug }}"> {{ rs.title }} </a></h4> </td>
+                    <td> <a href="/category/{{ rs.category.id }} /{{ rs.category.slug }}"> {{ rs.category }}"</a></td>
+                    <td> <h4>${{ rs.price }}</h4></td>
+                </tr>
+          {% endfor %}
+          </table>
+
+        </div>
+       
+      </div>
+    </section>
+{% endblock %}

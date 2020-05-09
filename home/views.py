@@ -4,7 +4,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from home.models import Setting, ContactFormu, ContactFormMessage
 from product.models import Product, Category, Images, Comment
-
+from home.forms import SearchForm
 
 def index(request):
     setting = Setting.objects.get(pk=1)
@@ -80,3 +80,18 @@ def product_detail(request,id,slug):
                 'comments': comments,
                 }
     return render(request,'product_detail.html',context)
+
+
+def product_search(request):
+    if request.method == 'POST': # form post edildiyse
+        form = SearchForm(request.POST)
+        if form.is_valid():
+            category = Category.objects.all()
+            query = form.cleaned_data['query'] #formdan bilgiyi al
+            products = Product.objects.filter(title__icontains=query) # Select * from product where title like fibue
+            context = {
+                'products': products,
+                'category': category,
+            }
+            return render(request, 'products_search.html', context)
+    return HttpResponseRedirect('/')
