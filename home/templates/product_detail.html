@@ -85,105 +85,45 @@
             <hr>
              <h4>Comments</h4>
             <ul class="media-list">
+
+              {% for rs in comments %}
+            
               <li class="media">
                 <a class="pull-left" href="#">
-					<img class="media-object" src="{% static 'assets/img/small-avatar.png' %}" alt="" />
-					</a>
+				    	<img class="media-object" src="{% static 'assets/img/small-avatar.png' %}" alt="" />
+					      </a>
                 <div class="media-body">
-                  <h5 class="media-heading"><a href="#">John doe</a></h5>
-                  <span>3 March, 2013</span>
+                  <h5 class="media-heading"><a href="#">{{ rs.user.first_name }}</a></h5>
+                  <span>{{ rs.create_at }}</span>
                   <p>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                    {{ rs.comment }}
                   </p>
-                  <a href="#" class="reply">Reply</a>
-                  <div class="clearfix">
-                  </div>
-                  <!-- Nested media object -->
-                  <div class="media">
-                    <a class="pull-left" href="#">
-							<img class="media-object" src="{% static 'assets/img/small-avatar.png' %}" alt="" />
-							</a>
-                    <div class="media-body">
-                      <h5 class="media-heading"><a href="#">Tom slayer</a></h5>
-                      <span>3 March, 2013</span>
-                      <p>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                      </p>
-                      <a href="#" class="reply">Reply</a>
-                      <div class="clearfix">
-                      </div>
-                      <!-- Nested media object -->
-                      <div class="media">
-                        <a class="pull-left" href="#">
-									<img class="media-object" src="{% static 'assets/img/small-avatar.png' %}" alt="" />
-									</a>
-                        <div class="media-body">
-                          <h5 class="media-heading"><a href="#">Erick doe</a></h5>
-                          <span>3 March, 2013</span>
-                          <p>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                          </p>
-                          <a href="#" class="reply">Reply</a>
-                          <div class="clearfix">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Nested media object -->
-                  <div class="media">
-                    <a class="pull-left" href="#">
-							<img class="media-object" src="{% static 'assets/img/small-avatar.png' %}" alt="" />
-							</a>
-                    <div class="media-body">
-                      <h5 class="media-heading"><a href="#">Jimmy doe</a></h5>
-                      <span>3 March, 2013</span>
-                      <p>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                      </p>
-                      <a href="#" class="reply">Reply</a>
-                      <div class="clearfix">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="media">
-                <a class="pull-left" href="#">
-					<img class="media-object" src="{% static 'assets/img/small-avatar.png' %}" alt="" />
-					</a>
-                <div class="media-body">
-                  <h5 class="media-heading"><a href="#">Mike sullivan</a></h5>
-                  <span>3 March, 2013</span>
-                  <p>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                  </p>
-                  <a href="#" class="reply">Reply</a>
+                
                   <div class="clearfix">
                   </div>
                 </div>
               </li>
+              {% endfor %}
+
             </ul>
             <div class="comment-post">
               <h4>Leave a comment</h4>
-              <form action="" method="post" class="comment-form" name="comment-form">
+              <form action="/product/addcomment/{{ product.id }}" method="post" class="comment-form" name="comment-form">
+               {% csrf_token %}
                 <div class="row">
-                  <div class="span4">
+                  <div class="span8">
                     <label>Name <span>*</span></label>
-                    <input type="text" class="input-block-level" placeholder="Your name" />
+                    <input type="text" name="subject" class="input-block-level" placeholder="Subject" />
                   </div>
-                  <div class="span4">
-                    <label>Email <span>*</span></label>
-                    <input type="text" class="input-block-level" placeholder="Your email" />
-                  </div>
-                  <div class="span4">
-                    <label>URL</label>
-                    <input type="text" class="input-block-level" placeholder="Your website url" />
-                  </div>
+                
                   <div class="span8">
                     <label>Comment <span>*</span></label>
-                    <textarea rows="9" class="input-block-level" placeholder="Your comment"></textarea>
+                    <textarea rows="9" name="comment" class="input-block-level" placeholder="Your comment"></textarea>
+                     {% if user.id is not None %}
                     <button class="btn btn-theme" type="submit">Submit comment</button>
+                     {% else %}
+                     <h5> Yorum Eklemek Icin <a href="/login"> Login</a> Islemi yapiniz</h5>
+                      {% endif %}
                   </div>
                 </div>
               </form>
