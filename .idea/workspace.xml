@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d0a2a8-b4e7-47b7-ac12-ee4a3b9a21e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Tuçe_Nur_Gündüz.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project2/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="project2/invalid/Django" />
+    </ignored-facets>
+  </component>
   <component name="ProjectId" id="1YWcrlTLa5XNoGDbofDB3nA1OXf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,13 +53,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -155,14 +159,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Template degistirildi ve parcalanıp projeye adapte edildi." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="254" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589032608867">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="254" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1589032608867" />
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585484134855">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585484134855" />
+    <state x="152" y="72" key="DiffContextDialog" timestamp="1589034680848">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="152" y="72" key="DiffContextDialog/0.0.1600.900@0.0.1600.900" timestamp="1589034680848" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583930178936">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583930178936" />
+    <state x="627" y="164" key="RollbackChangesDialog" timestamp="1589034684946">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="627" y="164" key="RollbackChangesDialog/0.0.1600.900@0.0.1600.900" timestamp="1589034684946" />
+    <state x="350" y="38" key="SettingsEditor" timestamp="1589033638764">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="350" y="38" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1589033638764" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1585484197604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -175,5 +195,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1583928582347" />
+    <state x="496" y="48" width="607" height="804" key="find.popup" timestamp="1589032519045">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="496" y="48" width="607" height="804" key="find.popup/0.0.1600.900@0.0.1600.900" timestamp="1589032519045" />
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1589034344528">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1589034344528" />
   </component>
 </project>
