@@ -26,17 +26,19 @@
                                 <ul class="dropdown-menu">
                                     {% recursetree category %}
 
-                                        <li class="dropdown" ><a href="/category/{{ node.id }}/{{ node.slug }}">{{ node.title }} {% if not node.is_leaf_node %}<i class="icon-angle-right" ></i>{% endif %}</a>
-                                            <ul class="dropdown-menu sub-menu children">
-                                                {% if not node.is_leaf_node %}
-                                                    <li><a href="/category/{{ node.slug }}">{{ children }}</a></li>
-                                                {% endif %}
-                                            </ul>
-                                        </li>
+                                    <li class="dropdown"><a href="/category/{{ node.id }}/{{ node.slug }}">
+                                        {{ node.title}}
+                                        {% if not node.is_leaf_node %}<i class="icon-angle-right"></i>{% endif %}</a>
+                                        <ul class="dropdown-menu sub-menu children">
+                                            {% if not node.is_leaf_node %}
+                                            <li><a href="/category/{{ node.slug }}">{{ children }}</a></li>
+                                            {% endif %}
+                                        </ul>
+                                    </li>
                                     {% endrecursetree %}
                                 </ul>
                             </li>
-                        
+
                             <li class="dropdown">
                                 <a href="/hakkimizda"><i class="icon-leaf"></i> Hakkımızda <i class=""></i></a>
                             </li>
@@ -47,16 +49,39 @@
                             <li>
                                 <a href="/iletisim"><i class="icon-envelope-alt"></i> İletişim </a>
                             </li>
-                            
+                            {% if user.id is not None %}
                             <li>
-                            <form action="/search/" method="post" class="input-append">
-                                {% csrf_token %}
-                                <input  name="query" class="search-form" id="appendedPrependedInput" type="text" placeholder="Search here.." />
-                                <button class="btn btn-dark" type="submit">Search</button>
-                            </form>
+                            <li class="dropdown">
+                                <a href="#"><i class="icon-briefcase"></i>{{ user.first_name }}<i class="icon-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/login/">Comments</a></li>
+                                    <li><a href="/join/">Rezervations</a></li>
+                                    <li><a href="/logout/">Cikis</a></li>
+
+                                </ul>
+                            </li>
+                            </li>
+                            {% else %}
+
+                            <li class="dropdown">
+                                <a href="#"><i class="icon-user"></i> Sign in <i class="icon-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/login/">Login</a></li>
+                                    <li><a href="/join/">Join</a></li>
+
+                                </ul>
+                            </li>
+                            {% endif %}
+                            <li>
+                                <form action="/search/" method="post" class="input-append">
+                                    {% csrf_token %}
+                                    <input name="query" class="search-form" id="appendedPrependedInput" type="text"
+                                           placeholder="Search here.." style="width:100px;"/>
+                                    <button class="btn btn-dark" type="submit">Search</button>
+                                </form>
                             </li>
 
-                            
+
                         </ul>
                     </nav>
                 </div>
