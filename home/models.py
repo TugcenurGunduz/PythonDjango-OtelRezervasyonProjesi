@@ -70,25 +70,34 @@ class ContactFormu(ModelForm):
         }
 
 
+
 class UserProfile(models.Model):
-    user = models.OneToOneField(User,on_delete=models.CASCADE)
-    phone = models.CharField(blank=True, max_length=20)
-    adress = models.CharField(blank=True, max_length=150)
-    city = models.CharField(blank=True, max_length=20)
-    country = models.CharField(blank=True, max_length=20)
-    image = models.ImageField(blank=True,upload_to='images/users/')
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    phone = models.CharField(blank=True, max_length=110)
+    address = models.CharField(blank=True, max_length=110)
+    city = models.CharField(blank=True, max_length=110)
+    country = models.CharField(blank=True, max_length=110)
+    image = models.ImageField(blank=True, upload_to='images/users/', null=True)
 
     def __str__(self):
         return self.user.username
 
     def user_name(self):
-        return '['+self.user.username + '] ' + self.user.first_name +' '+ self.user.last_name
+        return '['+self.user.username + ']' + ' ' + self.user.first_name + ' ' + self.user.last_name
+
 
     def image_tag(self):
-        return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
-    image_tag.short_description = 'Image'
+        if self.image:
+            return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
+        else:
+            return 'No image Found'
+
+    image_tag.short_desciription = 'image'
 
 class UserProfileForm(ModelForm):
     class Meta:
         model = UserProfile
-        fields = ['phone', 'adress', 'city', 'country','image']
+        fields = ['phone', 'address', 'city', 'country','image']
+
+
+
