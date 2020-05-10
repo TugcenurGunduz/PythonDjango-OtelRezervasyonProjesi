@@ -1,0 +1,75 @@
+{% extends "homebase.html" %}
+
+{% block title %} Sign up - {{ setting.company }}{% endblock %}
+{% block keywords %}{{setting.keywords}}{% endblock %}
+{% block description %}{{setting.description}}{% endblock %}
+
+{% block head %}
+<link rel='shortcut icon' type='image/x-icon' href='{{setting.icon.url}}'/>
+{% endblock %}
+
+{% block sidebar %}
+{% include "sidebar.html" %}
+{% endblock %}
+
+{% block content %}
+<section id="subintro">
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <ul class="breadcrumb">
+                    <li><a href="/"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
+                    <li class="active">User Sign Up</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="maincontent">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+
+                <aside>
+
+                    <div class="billing-details">
+                        <div class="section-title">
+                            <h3 class="title">Login</h3>
+
+                        </div>
+                        {% if messages %}
+                        {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }}" role="alert">
+                            {{ message }}
+                        </div>
+                        {% endfor %}
+                        {% endif %}
+
+                   <form action="" method="post">
+                             {% csrf_token %}
+                             {% for field in form %}
+                                 <p>
+                                    {{ field.label_tag }}<br>
+                                    {{ field }}
+                                    {% if field.help_text %}
+                                         <small style="color: grey">{{ field.help_text }}</small>
+                                    {% endif %}
+                                    {% for error in field.errors %}
+                                        <p style="color: red">{{ error }}</p>
+                                    {% endfor %}
+                                 </p>
+
+                             {% endfor %}
+                             <button type="submit">Kayıt Ol</button>
+                        </form>
+                    </div>
+
+                </aside>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+{% endblock %}
