@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d0a2a8-b4e7-47b7-ac12-ee4a3b9a21e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/templates/user_panel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/products_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/products_search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -169,6 +163,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Template degistirildi ve parcalanıp projeye adapte edildi." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="392" y="108" key="#Notifications" timestamp="1589660048237">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="392" y="108" key="#Notifications/0.0.1600.900@0.0.1600.900" timestamp="1589660048237" />
     <state x="254" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589032608867">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -185,10 +183,11 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="152" y="72" key="DiffContextDialog/0.0.1600.900@0.0.1600.900" timestamp="1589034680848" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583930178936">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="542" y="147" key="FileChooserDialogImpl" timestamp="1589148509659">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583930178936" />
+    <state x="542" y="147" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1589148509659" />
     <state x="627" y="164" key="RollbackChangesDialog" timestamp="1589034684946">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -201,11 +200,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585484197604" />
-    <state x="444" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1589137829457">
+    <state x="444" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1589148496079">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586863266398" />
-    <state x="444" y="232" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1589137829457" />
+    <state x="444" y="232" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1589148496079" />
     <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583928582347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

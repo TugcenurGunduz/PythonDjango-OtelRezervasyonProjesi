@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.contrib.auth import logout, authenticate, login
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
-from home.models import Setting, ContactFormu, ContactFormMessage
+from home.models import Setting, ContactFormu, ContactFormMessage, UserProfile
 from product.models import Product, Category, Images, Comment
 from home.forms import SearchForm, SignUpForm
 
@@ -128,7 +128,13 @@ def signup_view(request):
             password = form.cleaned_data.get('password1')
             user = authenticate(username=username, password=password)
             login(request, user)
-            return HttpResponseRedirect ('/')
+            # Create data in profile table for user
+            current_user= request.user
+            data = UserProfile()
+            data.user_id = current_user.id
+            data.image = "images/users/user.png"
+            data.save()
+            return HttpResponseRedirect('/')
 
     form = SignUpForm()
     category = Category.objects.all()
