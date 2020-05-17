@@ -4,7 +4,7 @@ from django.contrib.auth import logout, authenticate, login
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from home.models import Setting, ContactFormu, ContactFormMessage, UserProfile
-from product.models import Product, Category, Images, Comment
+from product.models import Product, Category, Images, Comment, Room
 from home.forms import SearchForm, SignUpForm
 
 
@@ -75,11 +75,13 @@ def product_detail(request,id,slug):
     category = Category.objects.all()
     product = Product.objects.get(pk=id)
     images = Images.objects.filter(product_id=id)
+    rooms = Room.objects.filter(product_id=id)
     comments = Comment.objects.filter(product_id = id, status = 'True')
     current_user = request.user
     profile = UserProfile.objects.get(user_id=current_user.id)
     context = { 'product':product,
                 'category': category,
+                'rooms': rooms,
                 'images':images,
                 'comments': comments,
                 'profile' : profile,

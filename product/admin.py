@@ -1,13 +1,16 @@
 from django.contrib import admin
 from django.utils.html import format_html
 from mptt.admin import MPTTModelAdmin, DraggableMPTTAdmin
-from product.models import Category, Product, Images,Comment
+from product.models import Category, Product, Images, Comment, Room
 
 
 class ProductImageInline(admin.TabularInline):
     model = Images
     extra = 5
 
+class ProductRoomInline(admin.TabularInline):
+    model = Room
+    extra = 2
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ['title', 'status', 'image_tag']
@@ -19,9 +22,13 @@ class ProductAdmin(admin.ModelAdmin):
     list_display = ['title', 'category', 'star', 'city', 'phone', 'image_tag', 'status']
     readonly_fields = ('image_tag',)
     list_filter = ['status', 'category']
-    inlines = [ProductImageInline]
+    inlines = [ProductImageInline, ProductRoomInline]
     prepopulated_fields = {'slug':('title',)}
 
+class RoomAdmin(admin.ModelAdmin):
+    list_display = ['title','product','image_tag']
+    readonly_fields = ('image_tag',)
+    list_filter = ['status', 'product']
 
 class ImagesAdmin(admin.ModelAdmin):
     list_display = ['title', 'product', 'image_tag']
@@ -73,3 +80,4 @@ admin.site.register(Category, CategoryAdmin2)
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Images, ImagesAdmin)
 admin.site.register(Comment, CommentAdmin)
+admin.site.register(Room, RoomAdmin)
