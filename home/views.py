@@ -76,10 +76,13 @@ def product_detail(request,id,slug):
     product = Product.objects.get(pk=id)
     images = Images.objects.filter(product_id=id)
     comments = Comment.objects.filter(product_id = id, status = 'True')
+    current_user = request.user
+    profile = UserProfile.objects.get(user_id=current_user.id)
     context = { 'product':product,
                 'category': category,
                 'images':images,
                 'comments': comments,
+                'profile' : profile,
                 }
     return render(request,'product_detail.html',context)
 

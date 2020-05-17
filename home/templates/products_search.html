@@ -37,14 +37,14 @@
                 <th>Image</th>
                 <th>Hotem Name</th>
                 <th>Category</th>
-                <th>Price</th>
+                <th>Star</th>
               </tr>
                 {% for rs in products %}
                 <tr>
                     <td> <a href="/product/{{ rs.id }}/{{ rs.slug }}/"><img src ="{{ rs.image.url }}" style="width:350px;height:250px;" alt=""></a></td>
                     <td> <h4 class="product-name"><a href="/product/{{ rs.id }}/{{ rs.slug }}"> {{ rs.title }} </a></h4> </td>
                     <td> <a href="/category/{{ rs.category.id }} /{{ rs.category.slug }}"> {{ rs.category }}"</a></td>
-                    <td> <h4>${{ rs.price }}</h4></td>
+                    <td> <h4>{{ rs.star }}</h4></td>
                 </tr>
           {% endfor %}
           </table>
