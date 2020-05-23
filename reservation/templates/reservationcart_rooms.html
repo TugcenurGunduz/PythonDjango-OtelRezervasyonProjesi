@@ -1,5 +1,5 @@
 {% extends "homebase.html" %}
-
+{% load static %}
 {% block title %} Hakkımızda-{{ setting.company }}{% endblock %}
 {% block keywords %}{{setting.keywords}}{% endblock %}
 {% block description %}{{setting.description}}{% endblock %}
@@ -50,8 +50,11 @@
                         <tbody>
                         {% for rs in reservationcart %}
                         <tr>
-                            <th><a href="/reservation/deletefromcart/{{ rs.id }}" onclick="return confirm('Delete! Are you sure?')"><i class="ion-android-close"></i></a></th>
-                             <th><img src="{{ rs.image.url }}" style="width:450px;height:150px;" alt=""/></th>
+                            <th><a href="/reservation/deletefromcart/{{ rs.id }}"
+                                   onclick="return confirm('Delete! Are you sure?')"><img
+                                    src="{% static 'assets/img/delete.png' %}" style="width:30px;height:30px;"/></a>
+                            </th>
+                            <th><img src="{{ rs.room.image.url }}" style="width:450px;height:150px;" alt=""/></th>
                             <th>{{ rs.room.title }}</th>
                             <th>{{ rs.room.price }}$</th>
                             <th>{{ rs.quantity }}</th>
@@ -64,14 +67,38 @@
                     </table>
                     </p>
 
+
                 </div>
 
 
             </div>
             </p>
+
         </div>
     </div>
     </div>
     </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm" style="display:inline;float:right;">
+                <h3>1132TL</h3>
+            </div>
+
+            <div class="col-sm" style="display:inline;float:right;margin:0px 50px;">
+                <h3>Total =</h3>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <div class="col-sm" style="float:right;">
+                <button type="submit" class="btn btn-primary">Rezervasyon Yap</button>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
 </section>
 {% endblock %}

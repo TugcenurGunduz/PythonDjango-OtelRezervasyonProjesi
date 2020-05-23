@@ -33,6 +33,7 @@ def addtocart(request, id):
                 data.room_id = id
                 data.quantity = form.cleaned_data['quantity']
                 data.save()
+            request.session['cart_items'] = ReservationCart.objects.filter(user_id=current_user.id).count()
             messages.success(request, "Otel odasi basari ile eklenmistir. Teşekkür ederiz ")
             return HttpResponseRedirect(url)
     else:  # Ürün direk sepete ekle butonuna basıldıysa
@@ -46,6 +47,7 @@ def addtocart(request, id):
             data.room_id = id
             data.quantity = 1
             data.save()     # veritabanina kaydet
+            request.session['cart_items'] = ReservationCart.objects.filter(user_id=current_user.id).count()
         messages.success(request, "Otel odasi başarı ile sepete eklenmiştir. Teşekkür Ederiz ")
         return HttpResponseRedirect(url)
 
@@ -57,6 +59,7 @@ def reservationcart(request):
     category = Category.objects.all()
     current_user = request.user
     reservationcart = ReservationCart.objects.filter(user_id=current_user.id)
+    request.session['cart_items'] = ReservationCart.objects.filter(user_id=current_user.id).count()
     total=0
     for rs in reservationcart:
         total += rs.room.price * rs.quantity
@@ -71,5 +74,7 @@ def reservationcart(request):
 @login_required(login_url='/login')    # Check login
 def deletefromcart(request, id):
     ReservationCart.objects.filter(id=id).delete()
+    current_user = request.user
+    request.session['cart_items'] = ReservationCart.objects.filter(user_id=current_user.id).count()
     messages.success(request, "Ürün sepetten Silinmiştir.")
     return HttpResponseRedirect("/reservationcart")
