@@ -101,89 +101,110 @@
                                     <tbody>
                                     {% for rs in rooms%}
                                     <tr>
-                                        <th >{{ rs.title }}</th>
-                                        <th >{{ rs.description }}</th>
-                                        <th ><img src="{{ rs.image.url }}" style="width:450px;height:150px;" alt=""/></th>
-                                        <th >{{ rs.price }}</th>
-                                    </tr>
-                                   {% endfor %}
-                                    </tbody>
-                                </table>
-                                </p>
+                                        <th>{{ rs.title }}</th>
+                                        <th>{{ rs.description }}</th>
+                                        <th><img src="{{ rs.image.url }}" style="width:450px;height:150px;" alt=""/>
+                                        </th>
+                                        <th>{{ rs.price }}</th>
+                                        <th>
+                                            <form action="/reservation/addtocart/{{ rs.id }}" method="post">
+                                                {% csrf_token %}
+                                                <div class="quickview-plus-minus">
 
+                                                    <div class="cart-plus-minus" style="margin:20px 0px;">
+                                                        <span>Oda Sayisi</span>
+                                                        <input type="text" value="1" min="0" max="{{ rs.amount }}"
+                                                               name="quantity"
+                                                               class="cart-plus-minus-box" style="margin-left:10px;width:30px;">
+                                                    </div>
+                                                    <div class="quickview-btn-cart">
+                                                        <button class="btn btn-danger btn-lg" type="submit">Rezervasyon Yap
+                                                        </button>
+                                                    </div>
+
+                                                </div>
                             </div>
-                            <div class="tab-pane" id="two">
-                                <p>
+                            </form>
+                            </th>
+                            </tr>
+                            {% endfor %}
+                            </tbody>
+                            </table>
+                            </p>
 
-                                <p>
-                                    {{ product.detail | safe }}
-                                </p>
+                        </div>
+                        <div class="tab-pane" id="two">
+                            <p>
 
-                                </p>
-                            </div>
-                            <div class="tab-pane" id="three">
-                                <p>
-                                <h4>Comments</h4>
-                                <ul class="media-list">
+                            <p>
+                                {{ product.detail | safe }}
+                            </p>
 
-                                    {% for rs in comments %}
+                            </p>
+                        </div>
+                        <div class="tab-pane" id="three">
+                            <p>
+                            <h4>Comments</h4>
+                            <ul class="media-list">
 
-                                    <li class="media">
-                                        <a class="pull-left" href="#">
-                                            <img class="media-object" src="{{ profile.image.url }}"
-                                                 style="width:100px;height:100px;" alt=""/>
-                                        </a>
-                                        <div class="media-body">
-                                            <h5 class="media-heading"><a href="#">{{ rs.user.first_name }}</a></h5>
+                                {% for rs in comments %}
 
-                                            <span>{{ rs.create_at }}</span>
-                                            <span><h6>{{ rs.subject }}</h6></span>
-                                            <p>
-                                                {{ rs.comment }}
-                                            </p>
+                                <li class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object" src="{{ profile.image.url }}"
+                                             style="width:100px;height:100px;" alt=""/>
+                                    </a>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><a href="#">{{ rs.user.first_name }}</a></h5>
 
-                                            <div class="clearfix">
-                                            </div>
+                                        <span>{{ rs.create_at }}</span>
+                                        <span><h6>{{ rs.subject }}</h6></span>
+                                        <p>
+                                            {{ rs.comment }}
+                                        </p>
+
+                                        <div class="clearfix">
                                         </div>
-                                    </li>
-                                    <hr>
-                                    {% endfor %}
+                                    </div>
+                                </li>
+                                <hr>
+                                {% endfor %}
 
-                                </ul>
-                                <div class="comment-post">
-                                    <h4>Leave a comment</h4>
-                                    <form action="/product/addcomment/{{ product.id }}" method="post"
-                                          class="comment-form" name="comment-form">
-                                        {% csrf_token %}
-                                        <div class="row">
-                                            <div class="span8">
-                                                <label>Name <span>*</span></label>
-                                                <input type="text" name="subject" class="input-block-level"
-                                                       placeholder="Subject"/>
-                                            </div>
-
-                                            <div class="span8">
-                                                <label>Comment <span>*</span></label>
-                                                <textarea rows="9" name="comment" class="input-block-level"
-                                                          placeholder="Your comment"></textarea>
-                                                {% if user.id is not None %}
-                                                <button class="btn btn-theme" type="submit">Submit comment</button>
-                                                {% else %}
-                                                <h5> Yorum Eklemek Icin <a href="/login"> Login</a> Islemi yapiniz</h5>
-                                                {% endif %}
-                                            </div>
+                            </ul>
+                            <div class="comment-post">
+                                <h4>Leave a comment</h4>
+                                <form action="/product/addcomment/{{ product.id }}" method="post"
+                                      class="comment-form" name="comment-form">
+                                    {% csrf_token %}
+                                    <div class="row">
+                                        <div class="span8">
+                                            <label>Name <span>*</span></label>
+                                            <input type="text" name="subject" class="input-block-level"
+                                                   placeholder="Subject"/>
                                         </div>
-                                    </form>
-                                </div>
-                                </p>
+
+                                        <div class="span8">
+                                            <label>Comment <span>*</span></label>
+                                            <textarea rows="9" name="comment" class="input-block-level"
+                                                      placeholder="Your comment"></textarea>
+                                            {% if user.id is not None %}
+                                            <button class="btn btn-theme" type="submit">Submit comment</button>
+                                            {% else %}
+                                            <h5> Yorum Eklemek Icin <a href="/login"> Login</a> Islemi yapiniz</h5>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
+                            </p>
                         </div>
                     </div>
-                    <!-- end tab -->
                 </div>
-
+                <!-- end tab -->
             </div>
+
         </div>
+    </div>
     </div>
     </div>
 </section>
