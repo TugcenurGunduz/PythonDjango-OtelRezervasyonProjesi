@@ -44,6 +44,8 @@
                             <th scope="col">Title</th>
                             <th scope="col">Price</th>
                             <th scope="col">Quantity</th>
+                            <th scope="col">Start Date</th>
+                            <th scope="col">End Date</th>
                             <th scope="col">Total</th>
                         </tr>
                         </thead>
@@ -59,6 +61,8 @@
                             <th>{{ rs.room.price }}$</th>
                             <th>{{ rs.quantity }}</th>
                             <th>{{ rs.amount }}</th>
+                            <th>{{ rs.date_start }}</th>
+                            <th>{{ rs.date_end }}</th>
 
 
                         </tr>
@@ -82,7 +86,7 @@
         <div class="row">
 
             <div class="col-sm" style="display:inline;float:right;">
-                <h3>1132TL</h3>
+                <h3>{{total}}TL</h3>
             </div>
 
             <div class="col-sm" style="display:inline;float:right;margin:0px 50px;">
@@ -93,7 +97,9 @@
             <br>
             <br>
             <div class="col-sm" style="float:right;">
-                <button type="submit" class="btn btn-primary">Rezervasyon Yap</button>
+                <a href="/reservation/reservationroom">
+                    <button type="submit" class="btn btn-primary">Rezervasyon Yap</button>
+                </a>
             </div>
 
         </div>

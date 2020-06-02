@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d0a2a8-b4e7-47b7-ac12-ee4a3b9a21e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/reservation/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reservation/templates/reservation_completed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reservation/templates/reservation_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/migrations/0002_reservationcart_room.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/templates/reservationcart_rooms.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/templates/reservationcart_rooms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +71,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -177,10 +185,14 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="254" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1589032608867" />
-    <state x="559" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590187305974">
+    <state x="559" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590240716502">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="559" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.900@0.0.1600.900" timestamp="1590187305974" />
+    <state x="559" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.900@0.0.1600.900" timestamp="1590240716502" />
+    <state x="540" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591081731767">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="540" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.900@0.0.1600.900" timestamp="1591081731767" />
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585484134855">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -189,11 +201,11 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="152" y="72" key="DiffContextDialog/0.0.1600.900@0.0.1600.900" timestamp="1589034680848" />
-    <state x="542" y="147" key="FileChooserDialogImpl" timestamp="1590062352869">
+    <state x="542" y="147" key="FileChooserDialogImpl" timestamp="1591021088632">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583930178936" />
-    <state x="542" y="147" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1590062352869" />
+    <state x="542" y="147" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1591021088632" />
     <state x="627" y="164" key="RollbackChangesDialog" timestamp="1589034684946">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -206,19 +218,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585484197604" />
-    <state x="444" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1590062335416">
+    <state x="444" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1591020974167">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586863266398" />
-    <state x="444" y="232" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1590062335416" />
+    <state x="444" y="232" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1591020974167" />
     <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583928582347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1583928582347" />
-    <state x="496" y="48" width="666" height="804" key="find.popup" timestamp="1590236350359">
+    <state x="496" y="48" width="666" height="804" key="find.popup" timestamp="1591084185042">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="496" y="48" width="666" height="804" key="find.popup/0.0.1600.900@0.0.1600.900" timestamp="1590236350359" />
+    <state x="496" y="48" width="666" height="804" key="find.popup/0.0.1600.900@0.0.1600.900" timestamp="1591084185042" />
     <state x="463" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1589034344528">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
