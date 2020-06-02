@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d0a2a8-b4e7-47b7-ac12-ee4a3b9a21e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reservation/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reservation/templates/reservation_completed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reservation/templates/reservation_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/migrations/0002_reservationcart_room.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/migrations/0002_auto_20200602_1550.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/migrations/0003_auto_20200602_1550.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/migrations/0004_auto_20200602_1550.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/migrations/0005_auto_20200602_1551.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/migrations/0006_auto_20200602_1551.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/migrations/0007_auto_20200602_1551.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/migrations/0008_auto_20200602_1600.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/migrations/0009_auto_20200602_1601.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/templates/reservationcart_rooms.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/templates/reservationcart_rooms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -210,19 +210,19 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="627" y="164" key="RollbackChangesDialog/0.0.1600.900@0.0.1600.900" timestamp="1589034684946" />
-    <state x="350" y="38" key="SettingsEditor" timestamp="1589033638764">
+    <state x="391" y="43" width="998" height="708" key="SettingsEditor" timestamp="1591103797214">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="350" y="38" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1589033638764" />
+    <state x="391" y="43" width="998" height="708" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1591103797214" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1585484197604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585484197604" />
-    <state x="444" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1591020974167">
+    <state x="444" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1591103735469">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586863266398" />
-    <state x="444" y="232" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1591020974167" />
+    <state x="444" y="232" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1591103735469" />
     <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583928582347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -3,7 +3,7 @@ from reservation.models import ReservationCart, ReservationRoom, Reservation
 
 
 class ReservationCartAdmin(admin.ModelAdmin):
-    list_display = ['user', 'product', 'room','date_start','date_end', 'price', 'quantity', 'amount']
+    list_display = ['user', 'product', 'room', 'date_start', 'date_end', 'price', 'quantity', 'amount']
     list_filter = ['user']
 
 

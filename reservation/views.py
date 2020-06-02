@@ -98,13 +98,11 @@ def reservationroom(request):
         form = ReservationForm(request.POST)
         if form.is_valid():
             data = Reservation()
-            data.first_name = form.cleaned_data['first_name']   #get room quantity from form
+            data.first_name = form.cleaned_data['first_name']   #get room quantity form
             data.last_name = form.cleaned_data['last_name']
             data.address = form.cleaned_data['address']
             data.city = form.cleaned_data['city']
             data.phone = form.cleaned_data['phone']
-            # data.date_start = form.cleaned_data['date_start']
-            # data.date_end = form.cleaned_data['date_end']
             data.user_id = current_user.id
             data.total = total
             data.ip = request.META.get('REMOTE_ADDR')
@@ -120,6 +118,8 @@ def reservationroom(request):
                 detail.room_id = rs.room_id
                 detail.user_id = current_user.id
                 detail.quantity = rs.quantity
+                detail.date_start = rs.date_start
+                detail.date_end = rs.date_end
                 # ***Reduce quantity of sold product from Amount of Product
                 room = Room.objects.get(id=rs.room_id)
                 room.amount -= rs.quantity
