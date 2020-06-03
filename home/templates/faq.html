@@ -1,0 +1,78 @@
+{% extends "homebase.html" %}
+
+{% block title %} İletişim-{{ setting.company }}{% endblock %}
+{% block keywords %}{{setting.keywords}}{% endblock %}
+{% block description %}{{setting.description}}{% endblock %}
+
+{% block head %}
+<link rel='shortcut icon' type='image/x-icon' href='{{setting.icon.url}}'/>
+{% endblock %}
+
+{% block sidebar %}
+{% include "sidebar.html" %}
+{% endblock %}
+
+{% block content %}
+<section id="subintro">
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <ul class="breadcrumb">
+                    <li><a href="/"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
+                    <li class="active">Sıkça Sorulan Sorular</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="maincontent">
+    <div class="container">
+        <div class="row">
+
+
+
+
+
+
+
+
+
+                        {% if messages %}
+                        {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }}" role="alert">
+                            {{ message }}
+                        </div>
+                        {% endfor %}
+                        {% endif %}
+
+                        <div class="span12">
+                             <h3>Sıkça Sorulan Sorular</h3>
+                            <!-- start: Accordion -->
+                            <div class="accordion" id="accordion2">
+                            {% for rs in faq %}
+                                <div class="accordion-group">
+                                    <div class="accordion-heading">
+                                        <a class="accordion-toggle" data-toggle="collapse"
+                                           data-parent="#accordion2" href="#{{ rs.ordernumber }}">
+                                            <i class="icon-minus"></i> {{ rs.question }} </a>
+                                    </div>
+                                    <div id="{{ rs.ordernumber }}" class="accordion-body collapse">
+                                        <div class="accordion-inner">
+                                            {{ rs.answer }}
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                            </div>
+                            <!--end: Accordion -->
+                        </div>
+
+
+            </div>
+
+
+        </div>
+
+</section>
+{% endblock %}

@@ -39,6 +39,7 @@ urlpatterns = [
     path('signup/', views.signup_view, name='signup_view'),
     path('reservation/', include('reservation.urls')),
     path('reservationcart/', reservationviews.reservationcart, name="reservationcart"),
+    path('faq/', views.faq, name="faq"),
 ]
 if settings.DEBUG: # new
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

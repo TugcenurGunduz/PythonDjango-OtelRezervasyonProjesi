@@ -49,7 +49,9 @@
                             <li>
                                 <a href="/iletisim"><i class="icon-envelope-alt"></i> İletişim </a>
                             </li>
-
+                            <li>
+                                <a href="/faq"><i class="icon-envelope-alt"></i> SSS </a>
+                            </li>
                             {% if user.id is not None %}
 
                             <li class="dropdown">
@@ -65,7 +67,8 @@
                             </li>
 
                             <li>
-                                <a href="/reservationcart/" style="color:red"><i class="icon-calendar" ></i>{{ request.session.cart_items }} </a>
+                                <a href="/reservationcart/" style="color:red"><i class="icon-calendar"></i>
+                                    {{ request.session.cart_items }} </a>
                             </li>
                             {% else %}
 

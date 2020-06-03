@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.contrib.auth import logout, authenticate, login
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
-from home.models import Setting, ContactFormu, ContactFormMessage, UserProfile
+from home.models import Setting, ContactFormu, ContactFormMessage, UserProfile, FAQ
 from product.models import Product, Category, Images, Comment, Room
 from home.forms import SearchForm, SignUpForm
 from reservation.models import ReservationCart
@@ -150,3 +150,16 @@ def signup_view(request):
                 'form': form,
                 }
     return render(request,'signup.html',context)
+
+
+def faq(request):
+    category = Category.objects.all()
+    product = Product.objects.all()
+    faq = FAQ.objects.all().order_by('ordernumber')
+    context = {
+        'category': category,
+        'product': product,
+        'faq': faq,
+    }
+
+    return render(request, 'faq.html', context)
