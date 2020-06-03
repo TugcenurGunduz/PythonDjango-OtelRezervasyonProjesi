@@ -5,7 +5,7 @@ from django.contrib.auth.forms import PasswordChangeForm
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 from home.models import UserProfile
-from product.models import Category
+from product.models import Category, Comment
 from reservation.models import Reservation, ReservationRoom
 from user.forms import UserUpdateForm, ProfileUpdateForm
 
@@ -86,4 +86,22 @@ def reservationdetail(request, id):
         'reservationitems': reservationitems,
     }
     return render(request, 'user_reservation_detail.html', context)
-    # return HttpRespon se(reservation)
+
+
+@login_required(login_url="/login")
+def comments(request):
+    category = Category.objects.all()
+    current_user = request.user
+    comments = Comment.objects.filter(user_id=current_user.id)
+    context = {
+        'category': category,
+        'comments': comments,
+    }
+    return render(request, 'user_comments.html', context)
+
+@login_required(login_url="/login")
+def deletecomment(request,id):
+    current_user = request.user
+    Comment.objects.filter(id=id, user_id=current_user.id).delete()
+    messages.success(request,'Comment deleted')
+    return HttpResponseRedirect('/user/comments')
