@@ -1,0 +1,86 @@
+{% extends "homebase.html" %}
+
+{% block title %} {{ profile.user_name }} Profile{% endblock %}
+{% block keywords %}{{setting.keywords}}{% endblock %}
+{% block description %}{{setting.description}}{% endblock %}
+
+{% block head %}
+<link rel='shortcut icon' type='image/x-icon' href='{{setting.icon.url}}'/>
+{% endblock %}
+
+{% block sidebar %}
+{% include "sidebar.html" %}
+{% endblock %}
+
+{% block content %}
+<section id="subintro">
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <ul class="breadcrumb">
+                    <li><a href="/"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
+                    <li class="active">User Panel</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="maincontent">
+    <div class="container">
+        <div class="row">
+            <div class="span3">
+
+                <aside>
+
+                    <div class="billing-details">
+                        <div class="section-title">
+
+
+                        </div>
+
+                        {% include "user_panel.html" %}
+
+                    </div>
+
+                </aside>
+            </div>
+
+            <div class="span9">
+
+                <div class="widget">
+                    <h3 class="rheading">
+                        User Reservation List
+                        <span></span></h3>
+
+                    <table class="table">
+                        <tr>
+                            <th class="text-left">Id</th>
+                            <th class="text-left">First Name</th>
+                            <th class="text-left">Last Name</th>
+                            <th class="text-left">Total</th>
+                            <th class="text-left">Status</th>
+                            <th class="text-left">Date</th>
+                            <th class="text-left">Detay</th>
+
+                        </tr>
+                        {% for rs in reservations %}
+                        <tr>
+                            <td class="text-left">{{ rs.id }}</td>
+                            <td class="text-left">{{ rs.first_name }}</td>
+                            <td class="text-left">{{ rs.last_name }}</td>
+                            <td class="text-left">{{ rs.total }}</td>
+                            <td class="text-left">{{ rs.status }}</td>
+                            <td class="text-left">{{ rs.create_at }}</td>
+                            <td class="text-left"><a class="btn btn-primary" href="/user/reservationdetail/{{rs.id}}">Detay</a> </td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

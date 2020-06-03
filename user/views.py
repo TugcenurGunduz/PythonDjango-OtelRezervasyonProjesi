@@ -1,10 +1,12 @@
 from django.contrib import messages
 from django.contrib.auth import update_session_auth_hash
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import PasswordChangeForm
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 from home.models import UserProfile
 from product.models import Category
+from reservation.models import Reservation, ReservationRoom
 from user.forms import UserUpdateForm, ProfileUpdateForm
 
 
@@ -17,6 +19,8 @@ def index(request):
                }
     return render(request, 'user_profile.html', context)
 
+
+@login_required(login_url="/login")
 def user_update(request):
     if request.method == 'POST':
         user_form = UserUpdateForm(request.POST, instance=request.user) # request.user is user session data
@@ -40,6 +44,7 @@ def user_update(request):
         return render(request, 'user_update.html', context)
 
 
+@login_required(login_url="/login")
 def change_password(request):
     if request.method == 'POST':
         form = PasswordChangeForm(request.user, request.POST)
@@ -57,3 +62,28 @@ def change_password(request):
         return render(request, 'change_password.html', {
         'form': form,'category': category
     })
+
+@login_required(login_url="/login")
+def reservations(request):
+    category = Category.objects.all()
+    current_user = request.user
+    reservations = Reservation.objects.filter(user_id=current_user.id)
+    context = {
+        'category': category,
+        'reservations': reservations,
+    }
+    return render(request, 'user_reservations.html', context)
+
+@login_required(login_url="/login")
+def reservationdetail(request, id):
+    category = Category.objects.all()
+    current_user = request.user
+    reservation = Reservation.objects.get(user_id=current_user.id,id=id)
+    reservationitems = ReservationRoom.objects.filter(reservation_id=id)
+    context = {
+        'category': category,
+        'reservation': reservation,
+        'reservationitems': reservationitems,
+    }
+    return render(request, 'user_reservation_detail.html', context)
+    # return HttpRespon se(reservation)

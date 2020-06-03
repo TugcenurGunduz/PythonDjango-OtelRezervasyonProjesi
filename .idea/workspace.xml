@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d0a2a8-b4e7-47b7-ac12-ee4a3b9a21e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/change_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/user_reservation_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/user_reservations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/templates/reservation_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/templates/reservation_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/templates/reservationcart_rooms.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/templates/reservationcart_rooms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user_panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_panel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
@@ -178,10 +176,10 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="392" y="108" key="#Notifications/0.0.1600.900@0.0.1600.900" timestamp="1589660048237" />
-    <state x="254" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589032608867">
+    <state x="254" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591185947286">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="254" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1589032608867" />
+    <state x="254" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1591185947286" />
     <state x="559" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590240716502">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
