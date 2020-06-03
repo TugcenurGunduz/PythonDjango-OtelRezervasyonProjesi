@@ -1,0 +1,79 @@
+{% extends "homebase.html" %}
+
+{% block title %} {{ profile.user_name }} User Upadate{% endblock %}
+{% block keywords %}{{setting.keywords}}{% endblock %}
+{% block description %}{{setting.description}}{% endblock %}
+
+{% block head %}
+<link rel='shortcut icon' type='image/x-icon' href='{{setting.icon.url}}'/>
+{% endblock %}
+
+{% block sidebar %}
+{% include "sidebar.html" %}
+{% endblock %}
+
+{% block content %}
+<section id="subintro">
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <ul class="breadcrumb">
+                    <li><a href="/"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
+                    <li class="active">User Upadate</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="maincontent">
+    <div class="container">
+        <div class="row">
+            <div class="span3">
+
+                <aside>
+
+                    <div class="billing-details">
+                        <div class="section-title">
+
+
+                        </div>
+
+                        {% include "user_panel.html" %}
+
+                    </div>
+
+                </aside>
+            </div>
+
+            <div class="span9">
+
+                <div class="widget">
+                    <h3 class="rheading">
+                        USER INFORMATION
+                        <span></span></h3>
+                    {% if messages %}
+                    {% for message in messages %}
+                    <div style="color:#d45f3a;font-size:medium;">
+                        {{message | safe }}
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                    <form method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <fieldset class="form-group">
+                            {{ user_form.as_p }}
+                            {{ profile_form.as_p }}
+                        </fieldset>
+                        <div class="form-group">
+                            <button class="btn btn-outline-info" type="submit">Update</button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

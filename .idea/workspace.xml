@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d0a2a8-b4e7-47b7-ac12-ee4a3b9a21e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/change_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/user_update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/migrations/0002_auto_20200602_1550.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/migrations/0003_auto_20200602_1550.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/migrations/0004_auto_20200602_1550.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/migrations/0005_auto_20200602_1551.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/migrations/0006_auto_20200602_1551.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/migrations/0007_auto_20200602_1551.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/migrations/0008_auto_20200602_1600.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/migrations/0009_auto_20200602_1601.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/templates/reservation_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/templates/reservation_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/templates/reservationcart_rooms.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/templates/reservationcart_rooms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,15 +72,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Django\Otel-Rezervasyon-Projesi\home\static\assets\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Django\Otel-Rezervasyon-Projesi\user\templates" />
       <recent name="C:\Django\Otel-Rezervasyon-Projesi\user" />
       <recent name="C:\Django\Otel-Rezervasyon-Projesi\home\templates" />
       <recent name="C:\Django\project2\home\templates" />
       <recent name="C:\Django\project2\product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Django\Otel-Rezervasyon-Projesi\home\static\assets\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -218,11 +215,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585484197604" />
-    <state x="444" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1591103735469">
+    <state x="444" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1591183939476">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586863266398" />
-    <state x="444" y="232" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1591103735469" />
+    <state x="444" y="232" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1591183939476" />
     <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583928582347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

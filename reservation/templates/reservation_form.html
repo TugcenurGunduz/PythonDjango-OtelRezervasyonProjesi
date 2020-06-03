@@ -33,12 +33,27 @@
                 <div class="centered">
                     <form method="post">
                         {% csrf_token %}
-                        <input name="first_name" value="{{ user.first_name }}" type="text" placeholder="First Name">
-                        <input name="last_name" value="{{ user.last_name }}" type="text" placeholder="Last Name">
-                        <input type="text" value="{{ profile.phone }}" name="phone" placeholder="phone"/>
-<!--                        <input type="date" value="{{ reservationcart.date_start }}" name="date_start"/>-->
-<!--                        <input type="date" value="{{ reservationcart.date_end }}" name="date_end"/>-->
-                        <button type="submit">Reservasyonu tamamla</button>
+                        <div class="col">
+                        <div class="span4">
+                            <label>First Name </label>
+                            <input type="text" name="first_name" value="{{ user.first_name }}" class="input-block-level"
+                                   placeholder="First Name"/>
+                        </div>
+
+                        <div class="span4">
+                            <label>Last Name </label>
+                            <input type="text" name="last_name" value="{{ user.last_name }}" class="input-block-level"
+                                   placeholder="Last Name"/>
+                        </div>
+
+                        <div class="span4">
+                            <label>Phone Number </label>
+                            <input type="text" name="last_name" value="{{ profile.phone }}" class="input-block-level"
+                                   placeholder="phone"/>
+                        </div>
+                            <button type="submit">Reservasyonu tamamla</button>
+
+                        </div>
                     </form>
                 </div>
             </div>
