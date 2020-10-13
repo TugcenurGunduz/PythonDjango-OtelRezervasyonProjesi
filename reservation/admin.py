@@ -23,7 +23,7 @@ class ReservationAdmin(admin.ModelAdmin):
 
 
 class ReservationRoomAdmin(admin.ModelAdmin):
-    list_display = ['user', 'room', 'price', 'quantity', 'amount']
+    list_display = ['user', 'room', 'price', 'quantity', 'amount', 'date_start', 'date_end']
     list_filter = ['user']
 
 

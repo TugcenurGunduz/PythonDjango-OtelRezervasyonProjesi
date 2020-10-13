@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d0a2a8-b4e7-47b7-ac12-ee4a3b9a21e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/templates/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/products_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/products_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project5-28" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,7 +66,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -152,6 +152,24 @@
       <workItem from="1586797620029" duration="202000" />
       <workItem from="1586801246792" duration="4162000" />
       <workItem from="1586863265558" duration="3142000" />
+      <workItem from="1591192103264" duration="126000" />
+      <workItem from="1591192979050" duration="2712000" />
+      <workItem from="1591206444140" duration="6561000" />
+      <workItem from="1591214453490" duration="613000" />
+      <workItem from="1591258953765" duration="848000" />
+      <workItem from="1591259831196" duration="26000" />
+      <workItem from="1591259929189" duration="481000" />
+      <workItem from="1591263054217" duration="4329000" />
+      <workItem from="1591267862545" duration="612000" />
+      <workItem from="1591273805462" duration="1477000" />
+      <workItem from="1591275362463" duration="2244000" />
+      <workItem from="1591280627747" duration="749000" />
+      <workItem from="1591306927311" duration="710000" />
+      <workItem from="1591513385372" duration="214000" />
+      <workItem from="1591730661813" duration="337000" />
+      <workItem from="1591734344937" duration="140000" />
+      <workItem from="1591794546328" duration="879000" />
+      <workItem from="1593608312085" duration="1088000" />
     </task>
     <task id="LOCAL-00001" summary="Template degistirildi ve parcalanıp projeye adapte edildi.">
       <created>1585484138467</created>
@@ -195,32 +213,29 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="152" y="72" key="DiffContextDialog/0.0.1600.900@0.0.1600.900" timestamp="1589034680848" />
-    <state x="542" y="147" key="FileChooserDialogImpl" timestamp="1591021088632">
-      <screen x="0" y="0" width="1600" height="900" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1591734355658">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583930178936" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591734355658" />
     <state x="542" y="147" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1591021088632" />
     <state x="627" y="164" key="RollbackChangesDialog" timestamp="1589034684946">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="627" y="164" key="RollbackChangesDialog/0.0.1600.900@0.0.1600.900" timestamp="1589034684946" />
-    <state x="391" y="43" width="998" height="708" key="SettingsEditor" timestamp="1591103797214">
-      <screen x="0" y="0" width="1600" height="900" />
+    <state x="334" y="20" width="916" height="708" key="SettingsEditor" timestamp="1591191613877">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="334" y="20" width="916" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591191613877" />
     <state x="391" y="43" width="998" height="708" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1591103797214" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1585484197604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585484197604" />
-    <state x="444" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1591183939476">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586863266398" />
-    <state x="444" y="232" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1591183939476" />
-    <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583928582347">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1593608311720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1583928582347" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593608311720" />
+    <state x="444" y="232" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1591183939476" />
     <state x="496" y="48" width="666" height="804" key="find.popup" timestamp="1591084185042">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
